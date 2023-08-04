@@ -16,18 +16,8 @@ import Button from "/components/CustomButtons/Button.js";
 import Parallax from "/components/Parallax/Parallax.js";
 // sections for this page
 import SectionBasics from "/pages-sections/Components-Sections/SectionBasics.js";
-import SectionNavbars from "/pages-sections/Components-Sections/SectionNavbars.js";
-import SectionTabs from "/pages-sections/Components-Sections/SectionTabs.js";
-import SectionPills from "/pages-sections/Components-Sections/SectionPills.js";
-import SectionNotifications from "/pages-sections/Components-Sections/SectionNotifications.js";
-import SectionTypography from "/pages-sections/Components-Sections/SectionTypography.js";
-import SectionJavascript from "/pages-sections/Components-Sections/SectionJavascript.js";
-import SectionCarousel from "/pages-sections/Components-Sections/SectionCarousel.js";
-import SectionCompletedExamples from "/pages-sections/Components-Sections/SectionCompletedExamples.js";
-import SectionLogin from "/pages-sections/Components-Sections/SectionLogin.js";
-import SectionExamples from "/pages-sections/Components-Sections/SectionExamples.js";
-import SectionDownload from "/pages-sections/Components-Sections/SectionDownload.js";
-
+import AAgrantPost from "/pages-sections/humanitiesContent/GrantAA.jsx";
+import VetGrantPost from "/pages-sections/humanitiesContent/GrantVets.jsx";
 import styles from "/styles/jss/nextjs-material-kit/pages/components.js";
 
 const useStyles = makeStyles(styles);
@@ -38,7 +28,7 @@ export default function Components(props) {
   return (
     <div>
       <Header
-        brand="NextJS Material Kit"
+        brand="Utopos Humanities Hub"
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
@@ -53,9 +43,11 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>NextJS Material Kit.</h1>
+                <h1 className={classes.title}>Utopos Humanities Hub</h1>
                 <h3 className={classes.subtitle}>
-                  A Badass Material Kit based on Material-UI and NextJS.
+                Welcome to the Utopos Humanities Hub! This department is responsible for managing all Utopos approved humanitarian and charitable efforts from within the ecosystem that matches
+                our values of altruism, helpfulness, giving back, providing equity and fairness. Below is a list of ongoing and past efforts. 
+                For information on how you can help out, <a>click here.</a>
                 </h3>
               </div>
             </GridItem>
@@ -65,26 +57,12 @@ export default function Components(props) {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
         <SectionBasics />
-        <SectionNavbars />
-        <SectionTabs />
-        <SectionPills />
-        <SectionNotifications />
-        <SectionTypography />
-        <SectionJavascript />
-        <SectionCarousel />
-        <SectionCompletedExamples />
-        <SectionLogin />
-        <GridItem md={12} className={classes.textCenter}>
-          <Link href="/login">
-            <a className={classes.link}>
-              <Button color="primary" size="lg" simple>
-                View Login Page
-              </Button>
-            </a>
-          </Link>
-        </GridItem>
-        <SectionExamples />
-        <SectionDownload />
+        <AAgrantPost />
+        <VetGrantPost />
+        
+        
+       
+    
       </div>
       <Footer />
     </div>

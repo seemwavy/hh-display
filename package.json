@@ -1,5 +1,5 @@
 {
-  "name": "next-material-kit",
+  "name": "Utopos Humanities Hub",
   "version": "1.2.1",
   "description": "NextJS Version of Material Kit React by Creative Tim (https://creative-tim.com)",
   "main": "index.js",
@@ -12,44 +12,48 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/nextjs-material-kit.git"
+    "url": "git@github.com:UtoposBlockchain/humanities-hub.git"
   },
   "keywords": [
-    "next",
-    "nextjs",
-    "react",
-    "reactjs",
-    "npx",
-    "material",
-    "material-design",
-    "material-kit",
-    "material-kit-react",
-    "next-material-kit"
+    "Utopos",
+    "crypto",
+    "Defi",
+    "blockchain",
+    "investing",
+    "metaverse",
+    "charity",
+    "grants",
+    "travel",
+    "technology"
   ],
-  "author": "Creative Tim",
+  "author": "Utopos Blockchain",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/creativetimofficial/nextjs-material-kit/issues"
+    "url": "https://utopos.io"
   },
-  "homepage": "https://demos.creative-tim.com/nextjs-material-kit",
+  "homepage": "https://utopos.io",
   "dependencies": {
-    "@material-ui/core": "4.11.4",
-    "@material-ui/icons": "4.11.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.14.1",
+    "@mui/material": "^5.14.3",
     "classnames": "2.3.1",
     "moment": "2.29.4",
     "next": "12.2.5",
     "nouislider": "15.1.0",
     "prop-types": "15.8.1",
-    "react": "18.2.0",
+    "react": "^17.0.0 || ^18.0.0",
     "react-datetime": "3.1.1",
-    "react-dom": "18.2.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
     "react-slick": "0.29.0",
-    "styled-components": "5.3.5",
     "sass": "1.54.4",
+    "styled-components": "5.3.5",
     "webpack": "5.74.0"
   },
   "peerDependencies": {
-    "react": ">=16.0.0",
-    "react-dom": ">=16.0.0"
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
   }
 }

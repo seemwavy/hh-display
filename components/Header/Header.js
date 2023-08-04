@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // nodejs library to set properties for components
@@ -16,7 +17,6 @@ import Drawer from "@material-ui/core/Drawer";
 import Menu from "@material-ui/icons/Menu";
 // core components
 import styles from "/styles/jss/nextjs-material-kit/components/headerStyle.js";
-
 const useStyles = makeStyles(styles);
 
 export default function Header(props) {
@@ -63,7 +63,9 @@ export default function Header(props) {
   });
   const brandComponent = (
     <Link href="/components" as="/components">
-      <Button className={classes.title}>{brand}</Button>
+      <Button className={classes.title}>
+        <img src='/img/utop/Logo.png' alt="Utopos Logo" width={160} height={50} className={classes.logo} /> 
+      </Button>
     </Link>
   );
   return (

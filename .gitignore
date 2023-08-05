@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+/next
+/build
 
 # testing
 /coverage
@@ -27,3 +29,8 @@ yarn-error.log*
 /dist
 /.next
 pnpm-lock.yaml
+
+ntext
+Copy code
+# Ignore large file in cache/webpack/client-development directory
+cache/webpack/client-development/1.pack

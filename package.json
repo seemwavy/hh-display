@@ -1,7 +1,7 @@
 {
   "name": "Utopos Humanities Hub",
   "version": "1.2.1",
-  "description": "NextJS Version of Material Kit React by Creative Tim (https://creative-tim.com)",
+  "description": "The homepage for humanities initiatives for the Utopos Blockchain",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
